@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'   // must match Jenkins Tools config
+        maven 'Maven'   // must match Jenkins Tools config
         jdk   'JDK17'
     }
 
